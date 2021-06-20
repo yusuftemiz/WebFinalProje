@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>E--Ticaret</display-name>
+  <welcome-file-list>
+    <welcome-file>index</welcome-file>
+  </welcome-file-list>
+
+ <!-- İNDEX CONFİGURATION-->	
+	<servlet>
+		<servlet-name>index</servlet-name>
+		<jsp-file>/jsp/index.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>index</servlet-name>
+		<url-pattern>/index </url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>musteriKayit</servlet-name>
+		<jsp-file>/jsp/musteriKayit.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>musteriKayit</servlet-name>
+		<url-pattern>/musteriKayit</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>musteriGiris</servlet-name>
+		<jsp-file>/jsp/musteriGiris.jsp</jsp-file>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>musteriGiris</servlet-name>
+		<url-pattern>/musteriGiris</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>musteriMesaj</servlet-name>
+		<jsp-file>/jsp/musteriMesaj.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>musteriMesaj </servlet-name>
+		<url-pattern>/musteriMesaj </url-pattern>
+	</servlet-mapping>
+	
+		
+	<servlet>
+	<servlet-name>cssEkle</servlet-name>
+		<jsp-file>/jsp/cssEkle.jsp</jsp-file>
+	</servlet>
+		<servlet>
+		<servlet-name>jsEkle</servlet-name>
+		<jsp-file>/jsp/jsEkle.jsp</jsp-file>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>hata</servlet-name>
+		<jsp-file>/jsp/hata.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>hata</servlet-name>
+		<url-pattern>/hata </url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>urunListesi</servlet-name>
+		<jsp-file>/jsp/urunListesi.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>urunListesi</servlet-name>
+		<url-pattern>/urunListesi</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>deneme</servlet-name>
+		<jsp-file>/jsp/deneme.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>deneme</servlet-name>
+		<url-pattern>/deneme </url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>navbar</servlet-name>
+		<jsp-file>/jsp/navbar.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>navbar</servlet-name>
+		<url-pattern>/navbar </url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminUrunEkle</servlet-name>
+		<jsp-file>/jsp/AdminUrunEkle.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AdminUrunEkle</servlet-name>
+		<url-pattern>/adminurunekle </url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+    	<servlet-name>cart</servlet-name>
+    	<url-pattern>/cart</url-pattern>
+  	</servlet-mapping>
+	<servlet>
+		<servlet-name>cart</servlet-name>
+    	<jsp-file>/jsp/cart.jsp</jsp-file>
+  	</servlet>
+  
+  <servlet>
+    <servlet-name>ELEKTRONİK</servlet-name>
+    <jsp-file>/jsp/elektronik.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ELEKTRONİK</servlet-name>
+    <url-pattern>/elektronik</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EV</servlet-name>
+    <jsp-file>/jsp/ev.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EV</servlet-name>
+    <url-pattern>/ev</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>KİTAP</servlet-name>
+    <jsp-file>/jsp/kitap.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>KİTAP</servlet-name>
+    <url-pattern>/kitap</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+    <servlet-name>siparis</servlet-name>
+    <jsp-file>/jsp/siparisAlindi.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>siparis</servlet-name>
+    <url-pattern>/siparis</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+  
+    <servlet-name>iletisim</servlet-name>
+    <jsp-file>/jsp/iletisim.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>iletisim</servlet-name>
+    <url-pattern>/iletisim</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+  
+    <servlet-name>AdminIndex</servlet-name>
+    <jsp-file>/jsp/adminIndex.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminIndex</servlet-name>
+    <url-pattern>/adminIndex</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  
+    <servlet-name>AdminUrun</servlet-name>
+    <jsp-file>/jsp/adminUrunler.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminUrun</servlet-name>
+    <url-pattern>/adminUrun</url-pattern>
+  </servlet-mapping>
+    <servlet>
+  
+    <servlet-name>AdminMusteri</servlet-name>
+    <jsp-file>/jsp/adminMusteri.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminMusteri</servlet-name>
+    <url-pattern>/adminMusteri</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  
+    <servlet-name>SiparisAdmin</servlet-name>
+    <jsp-file>/jsp/siparisAdmin.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SiparisAdmin</servlet-name>
+    <url-pattern>/siparisAdmin</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  
+    <servlet-name>AdminLogin</servlet-name>
+    <jsp-file>/jsp/adminLogin.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/yonetici</url-pattern>
+  </servlet-mapping>
+     <servlet>
+  
+    <servlet-name>AdminUrunGuncelle</servlet-name>
+    <jsp-file>/jsp/AdminUrunGuncelle.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminUrunGuncelle</servlet-name>
+    <url-pattern>/urunGuncelle</url-pattern>
+  </servlet-mapping>
+  
+  
+   <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+	
+</web-app>
